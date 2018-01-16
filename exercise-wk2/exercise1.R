@@ -9,7 +9,7 @@ my.vector <- c(my.num, initials)
 vector.sum <- sum(my.vector)
 
 # Describe why this doesn't work: 
-# the number is not succesfully stored
+#NOt able to identify what initial is.
 
 install.packages("stringr")
 
@@ -18,7 +18,7 @@ my.line <- "Hey, hey, this is the library"
 print(str_length(my.line))
 
 # Describe why this doesn't work: 
-# even though it is stall, but it doesn't reconize.
+# even though it is stall, but it doesn't reconize, can't be load.
 
 said.the.famous <- paste(my.line, " - ", initial)
 
